@@ -1,0 +1,10 @@
+name: Show CPUs
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - run: lscpu
